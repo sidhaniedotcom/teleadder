@@ -1,5 +1,5 @@
 #
-**TELEGRAM-SCRAPER 2021 BY JOHNMILTON**
+**TELEGRAM-SCRAPER-ADDER BY SIDHANIE**
 #
 **• TO GENERATE API**
 
@@ -17,14 +17,11 @@
  pkg install python3 --upgrade python &&
  python3 -m pip install Telethon --upgrade telethon && 
  rm -rf telegram-scraper && 
- git clone https://github.com/JohnMiltonHacks/telegram-scraper && 
- cd telegram-scraper && 
+ git clone https://github.com/sidhaniedotcom/teleadder && 
+ cd teleadder && 
  python3 sim.py
 ```
-#
- **VIDEO TUTORIAL :-**
 
- https://youtu.be/yUUzmikQSy4
 #
    ° sim version is for multi client one who having multiple api and phone numbers(this version still in developement, you are beta tester for this version🤗)
    • now enter the api_id and api_hash and your phone number in the format +(country code)xxxxxxxxxxx
