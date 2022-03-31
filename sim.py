@@ -43,7 +43,7 @@ def ospath():
         api_hash= input('Enter api_hash_{}: '.format(z+1))
         with open('multi_log.txt', 'a') as f:
             f.write(api_id+'\n'+api_hash+'\n')
-        client = TelegramClient("JohnMilton{}".format(z), api_id, api_hash)
+        client = TelegramClient("sidhanie{}".format(z), api_id, api_hash)
         client.start()
         Sleep(1)
         clear()
@@ -92,7 +92,7 @@ for s in range(v):
     api_hash = data[t+1]
     print(a+ ' \nTrying... to connect to the Account {} \n'.format(x+1)+y+ ' \n api {}= '.format(x+1) +m+ api_id +'\n' +y+ ' api hash {} = '.format(x+1) +m+ api_hash)
     Sleep(1)
-    client = TelegramClient("JohnMilton{}".format(x), api_id, api_hash)
+    client = TelegramClient("sidhanie{}".format(x), api_id, api_hash)
     client.start()
     name=utils.get_display_name(client.get_me())
     print(a+" \n\n  ❤Successfully connected as {}❤\n\n".format(name))
